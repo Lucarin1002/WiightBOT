@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) =>{
     let staff = message.author;
     
     if(!message.member.roles.find("name", "wStaff")) {
-        message.reply("Sem perm")
+        message.reply("Somente quem tem a tag `wStaff` pode usar o w!mute ^-^")
         return;
     }
     if (message.mentions.users.size < 1) {

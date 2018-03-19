@@ -4,7 +4,7 @@ let staff = message.author;
 let canal = client.channels.get("408803612551020544");
 
 if(!message.member.roles.find("name", "wStaff")) {
-    message.reply("Sem perm")
+    message.reply("Somente quem tem a tag `wStaff` pode usar o w!unmute ^-^")
     return;
 }
 if (message.mentions.users.size < 1) {
