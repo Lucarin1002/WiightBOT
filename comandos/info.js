@@ -1,6 +1,6 @@
 module.exports.run = async (client, message, args) =>{
-exports.commands = new Object();
-exports.commands.info = {
+exports.comandos = new Object();
+exports.comandos.info = {
 	usage: '',
 	description: 'Mostra o criador do bot, uptime, Discord oficial and the invite link.',
 	command: (msg) => {
