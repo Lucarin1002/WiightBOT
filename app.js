@@ -4,7 +4,6 @@ const client = new Discord.Client();
 const preferencias = require('./preferences.json');
 const prefix = preferencias.prefix;
 const fs = require('fs');
-const ms = require('ms');
 var comandos = new Discord.Collection();
 
 client.login(process.env.BOT_TOKEN);
