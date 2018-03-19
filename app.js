@@ -71,7 +71,7 @@ client.on('message' , message => {
     .setTimestamp()
     .setThumbnail(client.user.avatarURL)
     .addField('Invite', 'você pode me adcionar no seu servidor com o link abaixo ^-^')
-    .addField('https://discordapp.com/oauth2/authorize?client_id=416645125981208579&permissions=8&scope=bot')
+    .addField('https://discordapp.com/oauth2/authorize?client_id=416645125981208579&permissions=8&scope=bot', 'Ei, se vc quiser apoiar o meu desenvolvedor,vc pode seguir ele no twitter ^-^ o twitter dele é @wii_doges')
     .setFooter('WiightBOT by wiigevaerd#0866 ')
     message.author.send(helpembed);
     message.delete();
