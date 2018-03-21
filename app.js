@@ -53,6 +53,7 @@ client.on('message', message => {
   .addField("w!ping", "Utilize esse comando para ver o meu tempo de resposta.")
   .addField("w!gerarsenha", "Gera um número aleatório que pode servir como uma senha temporária para vc.")
   .addField('w!tempo <local>', 'Comando simples para ver o tempo no local desejado ^-^ ( Exemplo: w!tempo são paulo )')
+  .addField('w!invite', 'Quer me adcionar em seu servidor ??? use w!invite ^-^')
   .addField('────── Comandos De Moderacão ────────', 'Os comandos de moderação necessitam da tag `wStaff` para funcionarem')
   .addField("w!cc", "Comando basico para limpar o chat.")
   .addField("w!mute", "Comando de mute, necessita da tag `Mutado` para funcionar.")
