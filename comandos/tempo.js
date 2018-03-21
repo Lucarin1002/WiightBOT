@@ -1,5 +1,7 @@
 module.exports.run = async (client, message, args) =>{
 
+const weather = require('weather-js');
+
     let tempo = message.content.split(' ').slice(1).join(' ');
 
     if (!tempo) {
