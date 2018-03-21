@@ -5,7 +5,6 @@ const preferencias = require('./preferences.json');
 const prefix = preferencias.prefix;
 const fs = require('fs');
 var comandos = new Discord.Collection();
-var weather = require('weather-js');
 
 client.login(process.env.BOT_TOKEN);
 
