@@ -33,6 +33,22 @@ const weather = require('weather-js');
          "°C\n" + result[0].current.skytext + 
          "\n" + result[0].current.humidity +"% Humididade relativa do AR" + 
          "\nVelocidade do Vento: " + result[0].current.winddisplay);
+
+         const embed = new Discord.RichEmbed()
+         .setDescription(`**${current.skytext}**`) 
+         .setAuthor(`Weather for ${current.observationpoint}`) 
+         .setThumbnail(current.imageUrl) 
+         .setColor(0x00AE86) 
+         .addField('Timezone',`UTC${location.timezone}`, true) 
+         .addField('Degree Type',location.degreetype, true)
+         .addField('Temperature',`${current.temperature} Degrees`, true)
+         .addField('Feels Like', `${current.feelslike} Degrees`, true)
+         .addField('Winds',current.winddisplay, true)
+         .addField('Humidity', `${current.humidity}%`, true)
+
+
+         message.channel.send({embed});
+
     });
 
 }
