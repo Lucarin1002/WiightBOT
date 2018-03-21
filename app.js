@@ -75,7 +75,7 @@ if(message.content.startsWith('w!invite')){
   .setTimestamp()
   .setThumbnail(client.user.avatarURL)
   .addField('Invite', 'você pode me adcionar no seu servidor com o link abaixo ^-^')
-  .addField('L────── Link ────────', 'https://discordapp.com/oauth2/authorize?client_id=416645125981208579&permissions=8&scope=bot')
+  .addField('────── Link ────────', 'https://discordapp.com/oauth2/authorize?client_id=416645125981208579&permissions=8&scope=bot')
   .setFooter('WiightBOT by wiigevaerd#0866 ')
   message.author.send(helpembed);
   message.delete();
