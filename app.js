@@ -94,5 +94,8 @@ client.on('message', message => {
 			});
 		} catch (e) {
 return message.channel.send(e.stack);
+    }
+
   }
-})
+
+});
