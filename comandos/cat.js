@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) =>{
 		} catch (e) {
 			return message.channel.send(e.stack);
 		}
-}
+};
 
 
 }
