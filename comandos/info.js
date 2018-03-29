@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) =>{
         name: "Informações sobre " + user.username,
         icon_url: (user.avatarURL !== null) ? user.avatarURL : "https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png"
       },
-      color: 0x7514ad,
+      color: e6ffff,
       thumbnail: {
         url: (user.avatarURL !== null) ? user.avatarURL : "https://maxcdn.icons8.com/Share/icon/Logos//discord_logo1600.png"
       },
