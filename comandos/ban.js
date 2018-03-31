@@ -17,7 +17,6 @@ module.exports.run = async (client, message, args) => {
     if(!motivo) return message.reply('Insira um motivo para banir');
 
     const banembed = new Discord.RichEmbed()
-
     .setColor('#00ffed')
     .setTimestamp()
     .setThumbnail(' https://i.pinimg.com/originals/ab/ec/37/abec3703cbe24c2e1bc3fb996235e7dd.jpg')
