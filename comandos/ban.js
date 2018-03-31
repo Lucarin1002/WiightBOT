@@ -2,7 +2,7 @@ module.exports.run = async (client, message, args) => {
 
     const Discord = require('discord.js');
 
-    let usuario = message.mentions.users.first();
+    let usuario = message.mentions.members.first();
 
     let motivo = message.content.split(' ').slice(2).join(' ');
 
