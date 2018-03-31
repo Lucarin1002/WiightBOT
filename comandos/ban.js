@@ -2,7 +2,7 @@ module.exports.run = async (client, message, args) => {
 
     let usuario = message.mentions.users.first();
 
-    let motivo = message.content.slice(2).join(' ');
+    let motivo = message.content.split(' ').slice(2).join(' ');
 
     let staffer = message.author
     
