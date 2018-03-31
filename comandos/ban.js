@@ -30,7 +30,7 @@ module.exports.run = async (client, message, args) => {
 
         usuario.ban(`${motivo}`)
         message.delete();
-        message.channel.send({banembed});
+        message.channel.send("", {banembed});
         usuario.send(`Olá, você foi banido pelo staffer ${staffer}, No servidor ${servidor}. Motivo: ${motivo}`);
 
     } else {
