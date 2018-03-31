@@ -4,9 +4,9 @@ module.exports.run = async (client, message, args) => {
 
     let motivo = message.content.split(' ').slice(2).join(' ');
 
-    let staffer = message.author
+    let staffer = message.author;
     
-    var servidor = message.guild.name();
+    var servidor = message.guild.name;
 
     if( message.member.hasPermission('BAN_MEMBERS')) {
 
