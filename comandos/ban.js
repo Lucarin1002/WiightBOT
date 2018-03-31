@@ -1,6 +1,6 @@
 module.exports.run = async (client, message, args) => {
 
-    const Discord = require(discord.js);
+    const Discord = require('discord.js');
 
     let usuario = message.mentions.users.first();
 
