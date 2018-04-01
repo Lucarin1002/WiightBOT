@@ -1,5 +1,5 @@
 module.exports.run = async (client, message, args) => {
-    let args = message.content.split().slice(0);
+    let args1 = message.content.split().slice(0);
     var moment = require('moment/moment');
     moment.locale('pt-BR'); 
     const dentrar = message.guild.createdAt
@@ -76,6 +76,6 @@ module.exports.run = async (client, message, args) => {
        ]
    }   
    })
-   .then(r => console.log(`${message.author.tag} usou o comando ${args}`))
+   .then(r => console.log(`${message.author.tag} usou o comando ${args1}`))
    .catch(console.error);
   }
