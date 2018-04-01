@@ -34,7 +34,7 @@ module.exports.run = async (client, message, args) => {
       },
       "fields": [
         {
-          "name": ":diamond_shape_with_a_dot_inside::large_blue_diamond:Nome:",
+          "name": ":small_orange_diamond: Nome:",
           "value":  `**${message.mentions.users.first().username}**` ,
           "inline": true
         },
@@ -47,39 +47,39 @@ module.exports.run = async (client, message, args) => {
            
             
         {
-          "name": ":date:Conta criada:",
+          "name": ":date: Conta criada:",
           "value": `**${moment(dentrar).format('LL')}**`, 
           "inline": true
         },
         {
-          "name": ':dizzy: Entrou no Servidor :comet: ',
+          "name": ':dizzy: Entrou no Servidor  ',
           "value":`**${moment(member.joinedAt).format('LL')}**`,
           "inline": true
         },
         {
-          "name": ":diamond_shape_with_a_dot_inside:Tempo On",
+          "name": ":diamond_shape_with_a_dot_inside: Tempo On",
           "value": new Date().getTime() - member.joinedAt.getTime(),
           "inline": true
         },
         
         {
-          "name": ":gear:Dias no Servidor:",
+          "name": ":gear: Dias no Servidor:",
           "value":`**${daysJoined.toFixed(0)} Dias**`,
           "inline": true
         },
        
         {
-          "name": "📷Foto:",
-          "value": ":comet: :white_medium_small_square: " + `[**Download**](${message.mentions.users.first().avatarURL})`,
+          "name": "📷 Foto:",
+          "value": ":ballot_box_with_check: " + `[**Download**](${message.mentions.users.first().avatarURL})`,
           "inline": true
         },
         {
-          "name": ':video_game:Jogando:',
+          "name": ':video_game: Jogando:',
           "value": `**${(user.presence.game && user.presence.game && user.presence.game.name) || 'Não esta em jogo.'}**`,
           "inline": true
         },
         {  
-          "name": ":desktop:Cargos:",
+          "name": ":desktop: Cargos:",
           "value": `**${roles.join(', ')}**`,
           "inline": true
         },
