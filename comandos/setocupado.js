@@ -1,10 +1,1 @@
-module.exports.run = async (client, message, args) =>{
-    if(message.member.id == "229025905014472705") {
-    
-        client.user.setStatus("dnd");
-           
-           message.reply('Presence status alterado ^-^');
-         } else {
-           message.reply("Apenas o wii pode usar utilizar este comando ^-^")
-         }
-}
+var _0xa787=['exports','229025905014472705','user','setStatus','dnd','reply'];(function(_0x1d9b18,_0x589e68){var _0x4fbfc5=function(_0x3821ef){while(--_0x3821ef){_0x1d9b18['push'](_0x1d9b18['shift']());}};_0x4fbfc5(++_0x589e68);}(_0xa787,0x108));var _0x5b68=function(_0x9ff0a6,_0x220a6b){_0x9ff0a6=_0x9ff0a6-0x0;var _0x35cc61=_0xa787[_0x9ff0a6];return _0x35cc61;};module[_0x5b68('0x0')]['run']=async(_0x4c9f59,_0x379fa9,_0x4b3f5c)=>{if(_0x379fa9['member']['id']==_0x5b68('0x1')){_0x4c9f59[_0x5b68('0x2')][_0x5b68('0x3')](_0x5b68('0x4'));_0x379fa9[_0x5b68('0x5')]('Presence\x20status\x20alterado\x20^-^');}else{_0x379fa9[_0x5b68('0x5')]('Apenas\x20o\x20wii\x20pode\x20usar\x20utilizar\x20este\x20comando\x20^-^');}};
