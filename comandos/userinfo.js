@@ -34,7 +34,7 @@ module.exports.run = async (client, message, args) => {
       },
       "fields": [
         {
-          "name": ":fire:Nome::fire:",
+          "name": ":diamond_shape_with_a_dot_inside::large_blue_diamond:Nome:",
           "value":  `**${message.mentions.users.first().username}**` ,
           "inline": true
         },
@@ -52,12 +52,12 @@ module.exports.run = async (client, message, args) => {
           "inline": true
         },
         {
-          "name": ':calling:Entrou no Serve :inbox_tray: ',
+          "name": ':dizzy: Entrou no Servidor :comet: ',
           "value":`**${moment(member.joinedAt).format('LL')}**`,
           "inline": true
         },
         {
-          "name": ":hourglass_flowing_sand:Tempo On:hourglass_flowing_sand:",
+          "name": ":diamond_shape_with_a_dot_inside:Tempo On",
           "value": new Date().getTime() - member.joinedAt.getTime(),
           "inline": true
         },
@@ -70,7 +70,7 @@ module.exports.run = async (client, message, args) => {
        
         {
           "name": "📷Foto:",
-          "value": ":frame_photo:" + `[**Download**](${message.mentions.users.first().avatarURL})`,
+          "value": ":comet: :white_medium_small_square: " + `[**Download**](${message.mentions.users.first().avatarURL})`,
           "inline": true
         },
         {
