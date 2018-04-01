@@ -1,5 +1,7 @@
 module.exports.run = async (client, message, args) => {
     let args1 = message.content.split().slice(0);
+    var moment = require('moment/moment');
+    moment.locale('pt-BR'); 
     const dentrar = message.guild.createdAt
     message.channel.send({embed:{
           author: {
