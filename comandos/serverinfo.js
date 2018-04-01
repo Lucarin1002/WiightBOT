@@ -47,24 +47,24 @@ module.exports.run = async (client, message, args) => {
            "inline": true
          },
          {
-           "name": ":penguin:__**Usuários**__ ",
+           "name": ":man_dancing:__**Usuários**__ ",
            "value":message.guild.members.size,
            "inline": true
          },
          
          { 
-         "name": ":stuck_out_tongue_winking_eye:__**Cargos:**__ ",
+         "name": ":low_brightness:__**Cargos:**__ ",
          "value":message.guild.roles.size,
          "inline": true
        },
        {
-         "name": ":smiley:__**Emojis:**__:smiling_imp:",
+         "name": ":thinking:__**Emojis:**__:cookie:",
          "value":message.guild.emojis.size,
          "inline": true
        },
       
        {
-         "name": " :gem:__**Dono:**__  ",
+         "name": " :hammer_pick:__**Dono:**__  ",
          "value": `<@${message.guild.ownerID}>`,
          "inline": true
        },
