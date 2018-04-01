@@ -4,11 +4,11 @@ module.exports.run = async (client, message, args) => {
     let reason = args.slice(1).join(' ');
     let user = message.mentions.users.first();
    
-    if (message.mentions.users.size < 1) return message.reply('__***SELECIONE O USUARIO!***__').catch(console.error);
+    if (message.mentions.users.size < 1) return message.reply('__***Memcione o usuário para banir***__').catch(console.error);
    
-    if (reason.length < 1) return message.reply('__***Você precisa de uma razão para BANIR!***__');
+    if (reason.length < 1) return message.reply('__***Insira um motivo para poder banir!***__');
     
-    if (!message.guild.member(user).bannable) return message.reply("__***Eu não posso BANIR esse cara ai não, rapaz!***__");
+    if (!message.guild.member(user).bannable) return message.reply("__***Infelismente eu não posso banir esse usuário!***__");
     let member = message.guild.member(user).ban(0)
  
     const Discord = require("discord.js");
@@ -16,10 +16,10 @@ module.exports.run = async (client, message, args) => {
         .setColor('872373')
         .setTimestamp()
         .addField('Ação:', '__***BAN***__')
-        .addField('Usuario:', `${user.username}`)
-        .addField('Staff:', `${message.author.username}`)
+        .addField('Usuário:', `${user.username}`)
+        .addField('Staffer:', `${message.author.username}`)
         .addField('Motivo', reason)
-        .setFooter('Wiight >bot')
+        .setFooter('WiightBOT™ ᴮᴱᵀᴬ')
     return message.channel.sendEmbed(embed).catch(console.error);
    
 }
