@@ -1,8 +1,5 @@
 module.exports.run = async (client, message, args) =>{
   if (message.mentions.users.size < 1) return message.reply('__***SELECIONE O USUARIO!***__').catch(console.error);
-    
-  //             to me matando aqui acnologia :D
-  // help meeeeeeeeeee
       
       let user =   message.mentions.members.first() || message.author
       let member = message.guild.member(user);
