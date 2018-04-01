@@ -1,5 +1,5 @@
 {
-  "name": "hyperbot",
+  "name": "WiightBOT",
   "version": "1.0.0",
   "description": "A simple bot for discord maked in discord.js",
   "main": "app.js",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyperGalacticDev/HyperBot"
+    "url": "https://github.com/wiigevaerd/WiightBOT"
   },
-  "author": "HyperGalactic",
+  "author": "wiigevaerd",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
