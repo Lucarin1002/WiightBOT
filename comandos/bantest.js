@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
  
     const Discord = require("discord.js");
     const embed = new Discord.RichEmbed()
-        .setColor('872373')
+        .setColor('ff0000')
         .setTimestamp()
         .addField('Ação:', '__***BAN***__')
         .addField('Usuário:', `${user.username}`)
