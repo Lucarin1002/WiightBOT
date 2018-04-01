@@ -47,7 +47,7 @@ module.exports.run = async (client, message, args) => {
            "inline": true
          },
          {
-           "name": ":man_dancing:__**Usuários**__ ",
+           "name": ":man_dancing:__**Membros**__ ",
            "value":message.guild.members.size,
            "inline": true
          },
@@ -64,7 +64,7 @@ module.exports.run = async (client, message, args) => {
        },
       
        {
-         "name": " :hammer_pick:__**Dono:**__  ",
+         "name": " :hammer_pick:__**OwnerShip:**__  ",
          "value": `<@${message.guild.ownerID}>`,
          "inline": true
        },
