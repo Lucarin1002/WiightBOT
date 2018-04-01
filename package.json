@@ -14,7 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.1.2",
-    "dateformat": "^3.0.3",
     "discord.js": "^11.3.0",
     "fs": "0.0.1-security",
     "moment": "github:moment/moment",
